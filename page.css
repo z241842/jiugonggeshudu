@@ -22,6 +22,9 @@ h1 {
     height: 800px;
 }
 
+#body{
+    overflow-y:hidden;
+}
 
 div#buttons, div#solveContainer {
     display: flex;
@@ -60,6 +63,9 @@ table#sudoku {
     font-weight: normal;
 }
 
+table:hover {
+    transform: scale(1.1);
+}
 
 .predefined {
     width: 11%;
@@ -223,6 +229,22 @@ button#back {
     background-color:transparent;
 }
 
+#ruleback {
+  border-width:0px;
+  position:absolute;
+  left:755px;
+  top:640px;
+  width:203px;
+  height:70px;
+  display:flex;
+  font-family:'隶书', sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:75px;
+  color:black;
+  background-color:transparent;
+}
+
 #title {
   border-width:0px;
   position:absolute;
@@ -341,7 +363,7 @@ button#back {
   border-width:0px;
   position:absolute;
   left:735px;
-  top:382px;
+  top:302px;
   width:203px;
   height:70px;
   display:flex;
@@ -356,7 +378,7 @@ button#back {
   border-width:0px;
   position:absolute;
   left:735px;
-  top:553px;
+  top:473px;
   width:203px;
   height:70px;
   display:flex;
